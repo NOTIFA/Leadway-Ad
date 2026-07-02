@@ -93,19 +93,15 @@ button { border: none; cursor: pointer; background: none; font-family: inherit; 
 }
 
 .nav { display: flex; align-items: center; justify-content: space-between; }
-.nav__logo {
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  letter-spacing: .04em;
-}
+
 .nav__logo {
   display: flex;
   align-items: center;
-  gap: .5rem;
+  gap: 5rem;
 }
 .nav__logo-img {
   display: block;
-  height: 36px;
+  height: 3.5rem;
   width: auto;
 }
 .nav__logo-lead { color: var(--white); }
@@ -198,8 +194,8 @@ button { border: none; cursor: pointer; background: none; font-family: inherit; 
 /* ===== HERO ===== */
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 600px;
+  min-height: 10vh;
+  padding: 5rem 0 3rem;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -244,6 +240,8 @@ button { border: none; cursor: pointer; background: none; font-family: inherit; 
   position: relative;
   z-index: 2;
   max-width: 680px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .hero__eyebrow {
   display: inline-flex;
